@@ -1,4 +1,4 @@
-# Activity and Subject Recognition Using LSTM for HAR Dataset by UCI with simulated missing data
+# Robust Activity and Subject Recognition with LSTM & Handling Missing Sensor Data in the UCI HAR Dataset
 
 I am using Human Activity recognition dataset with by UCI (https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones) for my experiments. The Human Activity Recognition database was built from the recordings of participants performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed
 - WALKING
