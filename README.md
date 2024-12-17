@@ -43,7 +43,7 @@ model.add(Dense(y_train.shape[1], activation = 'softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 ```
-![Screenshot 2024-11-29 at 11 51 15 AM](https://github.com/user-attachments/assets/a91c4ad4-8d5b-42db-baf5-73372e31a3cf)
+![Screenshot 2024-11-29 at 11 51 15 AM](images/lstm.png)
 
 
 ## Activity Recognition			
@@ -67,7 +67,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 
 
-![download_4](https://github.com/user-attachments/assets/423c3d81-8195-40e8-ac30-d5af8c530212)
+![download_4](images/activity_recognition_bar.png)
 
 
 ## Subject Recognition			
@@ -107,7 +107,7 @@ X_train, X_test, y_train, y_test = train_test_split(all_X_data, all_y_data, test
 
 If we look at the subject class accuracy per activity then the picture becomes much more clear. For all subjects its the sitting standing and laying thats causing issues. Since these are stationary activity it might look very similar across all subjects 
 
-![suject accuracy per activity ](https://github.com/user-attachments/assets/5ca0ed9c-6f02-48c0-95e5-8fa3498d90b5)
+![suject accuracy per activity ](images/subject_accuracy.png)
 
 ### Accuracy with simulated missing Data
 
@@ -123,6 +123,6 @@ If we look at the subject class accuracy per activity then the picture becomes m
 | 10 Seconds ACC (1 interval) | 14.91 | 0.6145 | 0.6349 | 0.7388 | 0.6276 | 0.7325 |
 | 10 Seconds Gyro (1 interval) | 9.21 | 0.6165 | 0.6538 | 0.7524 | 0.6432 | 0.7475 |
 
-![download_5](https://github.com/user-attachments/assets/47f8fbd9-6f8a-44e7-8a31-d52b79040e64)
+![download_5](images/subject_recognition_bar.png)
 
 
