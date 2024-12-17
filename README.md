@@ -103,7 +103,7 @@ X_train, X_test, y_train, y_test = train_test_split(all_X_data, all_y_data, test
 
 ### Test Accuracy with no missing data is `0.8019`
 
-![Subject detection class accuracy](https://github.com/user-attachments/assets/d60db02d-1abf-440b-bc4c-5e4b0cd333fe)
+![Subject detection class accuracy](images/subject_per_class_accuracy.png)
 
 If we look at the subject class accuracy per activity then the picture becomes much more clear. For all subjects its the sitting standing and laying thats causing issues. Since these are stationary activity it might look very similar across all subjects 
 
