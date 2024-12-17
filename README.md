@@ -49,7 +49,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 ## Activity Recognition			
 --------------------------------
 ### Test Accuracy with no missing data is `0.9389`			
-![class accuracy activity](https://github.com/user-attachments/assets/90c8a979-f639-4d6e-888c-a560c0e02c20)
+![class accuracy activity](images/activity_per_class_accuracy.png)
 
 ### Accuracy with simulated missing Data
 
