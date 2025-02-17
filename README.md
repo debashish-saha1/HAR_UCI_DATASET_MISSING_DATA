@@ -58,13 +58,12 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 | Feature | Missing Data cells (%) | Accuracy with missing data | Simple Imputer Accuracy | KNN Imputer Accuracy | Simple Imputer + PCA Accuracy | KNN Imputer + PCA Accuracy |
 |---|---|---|---|---|---|---|
-| 1 Second ACC & 1 Second Gyro (5 intervals) | 12.07 | 0.7814 | 0.9026 | 0.8924 | 0.8988 | 0.8897 |
-| 5 Second ACC & 5 Second Gyro (1 interval) | 12.06 | 0.7729 | 0.8931 | 0.8900 | 0.8907 | 0.8870 |
-| 5 Second ACC (2 intervals) | 14.91 | 0.7811 | 0.8629 | 0.9117 | 0.8612 | 0.9104 |
-| 5 Second Gyro (2 intervals) | 9.22 | 0.7798 | 0.9365 | 0.9365 | 0.9348 | 0.9338 |
-| 10 Seconds ACC (1 interval) | 14.91 | 0.7940 | 0.8836 | 0.9277 | 0.8812 | 0.9263 |
-| 10 Seconds Gyro (1 interval) | 9.22 | 0.7787 | 0.9389 | 0.9300 | 0.9375 | 0.9267 |
-
+| 1 Second ACC & 1 Second Gyro (5 separate intervals for each) | 139741 | 0.7822 | 0.8989 | 0.8860 | 0.8975 | 0.8856 |
+| 5 Second ACC & 5 Second Gyro (1 continuous interval for each) | 139737 | 0.7872 | 0.8901 | 0.8931 | 0.8907 | 0.8928 |
+| 5 Second ACC (2 separate intervals) | 172691 | 0.7716 | 0.8663 | 0.9233 | 0.8653 | 0.9237 |
+| 5 Second Gyro (2 separate intervals) | 106749 | 0.7974 | 0.9189 | 0.9301 | 0.9186 | 0.9284 |
+| 10 Seconds ACC (1 continuous interval) | 172718 | 0.7710 | 0.8626 | 0.9138 | 0.8612 | 0.9138 |
+| 10 Seconds Gyro (1 continuous interval) | 106748 | 0.7740 | 0.9308 | 0.9362 | 0.9298 | 0.9348 |
 
 
 ![download_4](images/activity_recognition_bar.png)
