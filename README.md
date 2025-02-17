@@ -115,12 +115,12 @@ If we look at the subject class accuracy per activity then the picture becomes m
 
 | Feature | Missing Data cells (%) | Accuracy with missing data | Simple Imputer Accuracy | KNN Imputer Accuracy | Simple Imputer + PCA Accuracy | KNN Imputer + PCA Accuracy |
 |---|---|---|---|---|---|---|
-| 1 Second ACC & 1 Second Gyro (5 intervals) | 12.06 | 0.6165 | 0.6383 | 0.7359 | 0.6325 | 0.7281 |
-| 5 Second ACC & 5 Second Gyro (1 interval) | 12.06 | 0.6189 | 0.6402 | 0.7364 | 0.6339 | 0.7364 |
-| 5 Second ACC (2 intervals) | 14.91 | 0.6135 | 0.6378 | 0.7383 | 0.6310 | 0.7276 |
-| 5 Second Gyro (2 intervals) | 9.21 | 0.6169 | 0.6461 | 0.7504 | 0.6412 | 0.7456 |
-| 10 Seconds ACC (1 interval) | 14.91 | 0.6145 | 0.6349 | 0.7388 | 0.6276 | 0.7325 |
-| 10 Seconds Gyro (1 interval) | 9.21 | 0.6165 | 0.6538 | 0.7524 | 0.6432 | 0.7475 |
+| 1 Second ACC & 1 Second Gyro (5 separate intervals for each) | 139650 | 0.6150 | 0.6417 | 0.7340 | 0.6282 | 0.7199 |
+| 5 Second ACC & 5 Second Gyro (1 continuous interval for each) | 139656 | 0.6184 | 0.6383 | 0.7340 | 0.6262 | 0.7170 |
+| 5 Second ACC (2 separate intervals) | 172630 | 0.6180 | 0.6413 | 0.7442 | 0.6277 | 0.7282 |
+| 5 Second Gyro (2 separate intervals) | 106675 | 0.6141 | 0.6510 | 0.7515 | 0.6403 | 0.7398 |
+| 10 Seconds ACC (1 continuous interval) | 172629 | 0.6155 | 0.6340 | 0.7476 | 0.6233 | 0.7340 |
+| 10 Seconds Gyro (1 continuous interval) | 106675 | 0.6170 | 0.6490 | 0.7587 | 0.6379 | 0.7481 |
 
 ![download_5](images/subject_recognition_bar.png)
 
